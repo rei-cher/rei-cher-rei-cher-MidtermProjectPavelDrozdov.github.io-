@@ -1,0 +1,64 @@
+	body {
+		background-image: url("pictures/background.jpg");
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: 100% 100%;
+		}
+		
+	a{text-decoration:none;
+		font-family:Verdana,Garamond;
+		font-size:20pt;
+		color:black;
+		target:_self;
+		}
+		
+	a:hover{background:#6d6f7b;
+		color:white}
+		
+	hr {
+		height:5px;
+		background-color:black;
+		}
+		
+	h1 {
+		text-align:center;
+		font-size:72pt;
+		color:#6d6f7b;
+		}
+		
+	h2 {
+		text-align:center;
+		font-size:36pt;
+		color:blue;
+		}
+		
+	.column {
+		float:left;
+		}
+		
+	.left {
+		width: 33.33%;
+		}
+		
+	.middle {
+		width: 33.33%;
+		}
+		
+	.right {
+		width: 33.33%;
+		}
+		
+	.row:after{
+		content:"";
+		display:table;
+		clear:both;
+		}
+		
+	.center {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 10%;
+		height: 2%;
+		}
+		
